@@ -4,7 +4,7 @@
 
 ## usage
 
-```
+``` go
 import (
   . "github.com/onsi/ginkgo"
   . "github.com/onsi/gomega"
@@ -24,6 +24,8 @@ var _ = Describe("Usage", func() {
   })
 })
 ```
+
+## faq
 
 > But what if I use the timeout feature of Ginkgo's `It` function?
 
