@@ -29,4 +29,4 @@ var _ = Describe("Usage", func() {
 
 > But what if I use the timeout feature of Ginkgo's `It` function?
 
-Tough.
+Tough.  Don't do it.  That feature is broken as it can leave leaking goroutines running which confuse your test runs and needs to be ripped out of Ginkgo.
